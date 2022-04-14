@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
+from google.oauth2 import service_account
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -41,9 +42,12 @@ INSTALLED_APPS = [
     'oauth2_provider',
     'social_django',
     'rest_framework_social_oauth2',
+    'django_filters',
+    'background_task',
     'users',
     'house',
     'task',
+    'background_jobs',
 ]
 
 MIDDLEWARE = [
@@ -86,8 +90,12 @@ WSGI_APPLICATION = 'Taskly_App_tutorial.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd625jrumt470k5',
+        'USER': 'sfikpfkrrhping',
+        'PASSWORD': 'fc04478a42102d5bc70648fbff8fb785715576d100bae9841a596f951ea6d310',
+        'HOST': 'ec2-52-212-228-71.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
@@ -156,5 +164,10 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-MEDIA_URL = '/media/'
+#MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+#MEDIA_URL = '/media/'
+
+DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+GS_BUCKET_NAME = 'prod_taskly_api_001'
+GS_FILE_OVERWRITE = True
+GS_CREDENTIALS = service_account.Credentials.from_service_account_file('kingsroad-1548424266369-19f0340fb0bd.json')

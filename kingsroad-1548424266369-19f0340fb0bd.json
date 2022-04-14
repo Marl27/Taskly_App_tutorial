@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kingsroad-1548424266369",
+  "private_key_id": "19f0340fb0bdd88ed42565faf2e96243e6fc0014",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDb3Y9QxhjnmwQ+\ncry9+/zcg8XALmzfVj48O6hKm1bFCMNSk6+D9E7RoaRPRHjYXPhhc2j+CG2yI71K\nZLKj/Cg2q0TLZ6onPBVwKvSLyAxBSbnEDYNC2xWE73VlskUbvuT40OnRhA6VtJYE\n8FSDGdrPeEe1k7EBQrJyIVfoicLeOjGILhPGoeflkzIzJz8G9XLFtMA7Fh+xog8G\n+VFNxg60sdBabQr/cKqi+ytwKfAEePbqlo8o7qlBzFBLrfJv5FifmsEsH9Z0Oz+7\nC4hZAiZ8ZV803KCEBMA2hg6/v+JGQ5OWIyKq5W6X8JfhVUoC3e9RKHUjuH02m3AO\ntFdaJpRVAgMBAAECggEABhldUmZMZpBcS8cvCS4mU4+sOqqPBpsD2vPktT0d6RVX\nJcFHCygJz7LmNfS2TXo2wa1L6lAdiuWG6LtmYTore2jA3cugYro99gCbDA2emWkM\nKC4fyAj/zdI+tXV+iUiAXY6eDdvV870wtC5eicx7z2mMw7K3JEvPW28lWyQHLdbu\nQpyi5NU/2mDgBx/0RB8s2LxWtFHWrj8Gi/EnhYg2MuROw18g4dDUArbUF83SrVZj\nKlxKzgYLP30eTLmPL0OSX9M4qoeBTDwbt/LCNJQIX6SRCNUx9lQYUxFzG0E2gI1m\nZLqquO/scsm7fZQI9zG6ROh09FSZTn4LRiKuzz3HgQKBgQDxsIgs8BdIyzfx9UAB\nr4fwa4OEBK7jjX/qKkcyG+ZAcknchghkNedYiX/eDv2oOTtwDw6+uXpePGknJM7o\nxB0NRausZSg4ZyC316BoSUBaZOmabBvyhUpJDvUpLzoXrGPsVEqrZoGK2p3t3tFT\nmd8Iq0T4/hO+JKS1jsG4NkqYMQKBgQDo4jlDSWz0NQIzAVsTFiswsVSEf4zVDaT9\nTEM8YzJcU4OZwPng84owpnWOWLxoBIrnWca8HRluAjzjnJyWFmi33PKsVAnyk4Ye\njSxM7w38A6MZ66Rnp7J856sQRdif058G/hsB4krpRZsA2S7VkXPaKrcBzz8hNGny\nhL3S+GfZZQKBgHw1vnZh2YWWsyTNZty26kUb7BYgFgVqRjABFF/jSL0cP2tvEsb1\nkPTGjYmA6MnYx/w6MNjCF+pwX5Y3a4Lirw+QG79YqYf7MCxrS8vswX7zV77+Cork\nB55uan6E//UEqsHdPBbEcpT676k9FxVBAgfBhYv1gA37ZQ7N1C8o78MxAoGBALyY\nyCr3waabbyaDSJBSebO7SGjtKs43eJAxPJog813VvFO99h7428a+Z6FZt2q9kwf8\nqncZUcjHQyxJXn4ls7SC2Hw6qruqQQlo5qF/T2HySBnrvX68Tk3dB6nsBpyYssbk\n7lY+PtBfMEIloEoQuzPJN9/dSJDJc6uVWG0MAn4JAoGACwojwuPqSK2ih/9HMW74\n8jYBlTq6tS8oJUnaD+rsnVmZHpDnhYoI4xMkwBPjWFuNWJGmoIsGchvUUio2Re17\nXIGCCcEwSj4RThFtBDzQ4qJzcN0MxeGoFWkSxg+5iTUnOztXHMQDB3LqKJ5lKaDm\n3Lrr/a4RDb6lbklSQ9RuV20=\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-account-taskly-api-001@kingsroad-1548424266369.iam.gserviceaccount.com",
+  "client_id": "102746393266494043531",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-account-taskly-api-001%40kingsroad-1548424266369.iam.gserviceaccount.com"
+}

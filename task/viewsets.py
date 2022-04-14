@@ -29,8 +29,8 @@ class TaskViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAllowedToEditTaskElseNone, ]
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
-    filter_backends = [filters.SearchFilter ,DjangoFilterBackend]
-    search_fields = ['name', 'description',]
+    filter_backends = [filters.SearchFilter, DjangoFilterBackend]
+    search_fields = ['name', 'description', ]
     filterset_fields = ['status', ]
 
     def get_queryset(self):
