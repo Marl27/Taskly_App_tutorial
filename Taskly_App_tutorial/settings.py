@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7tb(t#mb$@8q)3k6si+%z_(@t@#!l=ax51up#9qvv)c5yc&c4s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'taskly-api-001.herokuapp.com']
 
