@@ -1,0 +1,1 @@
+web: gunicorn Taskly_App_tutorial.wsgi
